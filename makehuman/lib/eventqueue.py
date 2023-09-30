@@ -39,7 +39,7 @@ TODO
 from core import G
 from threading import Lock, Condition
 
-from PyQt5 import QtCore
+from PyQt6 import QtCore
 
 class Queue(object):
     def __init__(self):

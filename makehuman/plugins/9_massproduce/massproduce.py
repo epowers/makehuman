@@ -15,7 +15,7 @@ mhapi = gui3d.app.mhapi
 
 import mh, time, os, re
 
-from PyQt5.QtWidgets import *
+from PyQt6.QtWidgets import *
 
 import pprint
 pp = pprint.PrettyPrinter(indent=4)

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from PyQt5.QtWidgets import *
+from PyQt6.QtWidgets import *
 import sys
 import qtgui
 

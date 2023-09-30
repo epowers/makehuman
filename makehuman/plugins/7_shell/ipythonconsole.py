@@ -55,7 +55,7 @@ from qtconsole.inprocess import QtInProcessKernelManager
 from IPython.lib import guisupport
 
 
-from PyQt5 import QtCore, QtGui, QtSvg, QtWidgets
+from PyQt6 import QtCore, QtGui, QtSvg, QtWidgets
 
 class _QIPythonWidget(RichJupyterWidget):
     """ Convenience class for a live IPython console widget.

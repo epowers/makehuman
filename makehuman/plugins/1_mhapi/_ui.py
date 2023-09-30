@@ -16,11 +16,11 @@ import sys
 if sys.version_info >= (3,4):
     import importlib
     import importlib.util
-    from PyQt5 import QtGui
-    from PyQt5 import QtCore
-    from PyQt5.QtGui import *
-    from PyQt5 import QtWidgets
-    from PyQt5.QtWidgets import *
+    from PyQt6 import QtGui
+    from PyQt6 import QtCore
+    from PyQt6.QtGui import *
+    from PyQt6 import QtWidgets
+    from PyQt6.QtWidgets import *
 else:
     import pkgutil
     if pkgutil.find_loader("PySide") is not None:

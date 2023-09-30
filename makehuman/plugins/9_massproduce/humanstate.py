@@ -14,7 +14,7 @@ from .modifiergroups import MACROGROUPS
 
 mhapi = gui3d.app.mhapi
 
-from PyQt5.QtWidgets import *
+from PyQt6.QtWidgets import *
 
 import pprint
 pp = pprint.PrettyPrinter(indent=4)

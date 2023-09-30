@@ -42,7 +42,7 @@ import re
 import log
 from core import G
 
-from PyQt5 import QtCore, QtGui, QtOpenGL, QtWidgets
+from PyQt6 import QtCore, QtGui, QtOpenGL, QtWidgets
 
 import glmodule as gl
 import events3d

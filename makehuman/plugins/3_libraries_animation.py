@@ -42,8 +42,8 @@ import gui
 import gui3d
 from core import G
 
-from PyQt5 import QtGui
-from PyQt5.QtWidgets import QStyle, QApplication
+from PyQt6 import QtGui
+from PyQt6.QtWidgets import QStyle, QApplication
 
 class AnimationLibrary(gui3d.TaskView):
 

@@ -40,7 +40,7 @@ A Qt based filechooser widget.
 
 import os
 
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt6 import QtCore, QtGui, QtWidgets
 
 import qtgui as gui
 import mh

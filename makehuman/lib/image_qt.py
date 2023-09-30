@@ -40,7 +40,7 @@ import os
 import numpy as np
 from core import G
 
-from PyQt5 import QtCore, QtGui
+from PyQt6 import QtCore, QtGui
 
 def load(path):
     """

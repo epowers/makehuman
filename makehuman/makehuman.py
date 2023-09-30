@@ -42,7 +42,7 @@ import os
 import re
 import subprocess
 
-from PyQt5 import QtCore
+from PyQt6 import QtCore
 
 ## Version information #########################################################
 __version__ = "1.2.1"                   # Major, minor and patch version number
@@ -524,8 +524,8 @@ makes use of.\n"""
     license_folder = getpath.getSysPath('licenses')
     if not os.path.isdir(license_folder):
         return result + _error("Error: external licenses folder is not found, this is an incomplete MakeHuman distribution!")
-    external_licenses = [ ("PyQt5", ("pyQt5-license.txt", "http://www.riverbankcomputing.com", "GPLv3")),
-                          ("Qt5", ("qt5-license.txt", "http://www.qt.io", "GPLv3")),
+    external_licenses = [ ("PyQt6", ("pyQt5-license.txt", "http://www.riverbankcomputing.com", "GPLv3")),
+                          ("Qt6", ("qt5-license.txt", "http://www.qt.io", "GPLv3")),
                           ("Numpy", ("numpy-license.txt", "http://www.numpy.org", "BSD (3-clause)")),
                           ("PyOpenGL", ("pyOpenGL-license.txt", "http://pyopengl.sourceforge.net", "BSD (3-clause)")),
                           ("Transformations", ("transformations-license.txt", "http://www.lfd.uci.edu/~gohlke/", "BSD (3-clause)")),

@@ -42,7 +42,7 @@ import re
 from core import G
 import log
 
-from PyQt5 import QtCore, QtGui, QtSvg, QtWidgets
+from PyQt6 import QtCore, QtGui, QtSvg, QtWidgets
 
 import events3d
 import language

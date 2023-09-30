@@ -47,7 +47,7 @@ import re
 from core import G
 from language import language
 from uuid import uuid4
-from PyQt5 import QtWidgets
+from PyQt6 import QtWidgets
 
 
 universalBaseTargets = ['universal-female-young-averagemuscle-averageweight.target',
